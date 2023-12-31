@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from PyQt5 import (QtGui, QtWidgets, QtCore)
-from src.gui.sharedcomnponets.sharedcomponets import ConfigQLineEdit
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import ConfigQLineEdit
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class PidGroupBox(QtWidgets.QGroupBox):

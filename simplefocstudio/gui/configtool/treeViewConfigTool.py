@@ -3,11 +3,11 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QVBoxLayout, QSplitter)
 
-from src.gui.configtool.deviceInteractionFrame import DeviceInteractionFrame
-from src.gui.configtool.devicesInspectorTree import DevicesInspectorTree
-from src.gui.sharedcomnponets.sharedcomponets import (WorkAreaTabWidget,
+from simplefocstudio.gui.configtool.deviceInteractionFrame import DeviceInteractionFrame
+from simplefocstudio.gui.configtool.devicesInspectorTree import DevicesInspectorTree
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import (WorkAreaTabWidget,
                                                       GUIToolKit)
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class TreeViewConfigTool(WorkAreaTabWidget):

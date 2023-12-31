@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 from PyQt5 import QtWidgets
 
-from src.gui.configtool.configureConnectionDialog import \
+from simplefocstudio.gui.configtool.configureConnectionDialog import \
     ConfigureSerailConnectionDialog
-from src.gui.sharedcomnponets.sharedcomponets import GUIToolKit
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import GUIToolKit
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class ConnectionControlGroupBox(QtWidgets.QGroupBox):

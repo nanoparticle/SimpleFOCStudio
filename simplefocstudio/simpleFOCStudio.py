@@ -5,7 +5,7 @@
     SimpleFOC library.
 """
 from PyQt5 import QtWidgets, QtCore
-from src.gui.mainWindow import UserInteractionMainWindow
+from simplefocstudio.gui.mainWindow import UserInteractionMainWindow
 import sys
 import logging
 

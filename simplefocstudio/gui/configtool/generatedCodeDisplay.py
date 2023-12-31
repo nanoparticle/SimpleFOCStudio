@@ -6,9 +6,9 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import (QSyntaxHighlighter,QTextCharFormat,QBrush,QColor)
 from PyQt5.QtWidgets import (QVBoxLayout)
 
-from src.gui.sharedcomnponets.sharedcomponets import (WorkAreaTabWidget,
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import (WorkAreaTabWidget,
                                                       GUIToolKit)
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class GenerateCodeDialog(QtWidgets.QDialog):

@@ -3,8 +3,8 @@
 
 from PyQt5 import (QtGui,QtWidgets)
 
-from src.gui.sharedcomnponets.sharedcomponets import GUIToolKit
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import GUIToolKit
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class DROGroupBox(QtWidgets.QGroupBox):

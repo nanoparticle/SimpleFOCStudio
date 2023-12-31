@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from PyQt5 import QtWidgets
 
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class ControlLoopGroupBox(QtWidgets.QGroupBox):

@@ -6,8 +6,8 @@ import numpy as np
 import pyqtgraph as pg
 from PyQt5 import QtWidgets
 
-from src.gui.sharedcomnponets.sharedcomponets import GUIToolKit
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import GUIToolKit
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 class SimpleFOCGraphicWidget(QtWidgets.QGroupBox):
 

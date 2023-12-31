@@ -3,9 +3,9 @@
 import serial
 from PyQt5 import (QtGui, QtCore, QtWidgets)
 
-from src.gui.sharedcomnponets.sharedcomponets import GUIToolKit
-from src.gui.sharedcomnponets.sharedcomponets import SerialPortComboBox
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import GUIToolKit
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import SerialPortComboBox
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class ConfigureConnection(QtWidgets.QGroupBox):

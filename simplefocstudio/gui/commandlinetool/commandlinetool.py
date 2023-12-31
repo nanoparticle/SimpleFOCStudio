@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 from PyQt5 import QtWidgets
 
-from src.gui.commandlinetool.configureConnectionWidget import \
+from simplefocstudio.gui.commandlinetool.configureConnectionWidget import \
     ConfigureConnection
-from src.gui.sharedcomnponets.commandLineInterface import CommandLineWidget
-from src.gui.sharedcomnponets.sharedcomponets import (WorkAreaTabWidget,
+from simplefocstudio.gui.sharedcomnponets.commandLineInterface import CommandLineWidget
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import (WorkAreaTabWidget,
                                                       GUIToolKit)
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class CommandLineConsoleTool(WorkAreaTabWidget):

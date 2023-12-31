@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 from PyQt5.QtWidgets import (QVBoxLayout, QFrame)
 
-from src.gui.configtool.connectionControl import ConnectionControlGroupBox
-from src.gui.configtool.deviceJoggingControl import DeviceJoggingControl
-from src.gui.configtool.deviceTreeview import DeviceTreeView
-from src.gui.configtool.droDisplayWidget import DROGroupBox
-from src.gui.configtool.generalControls import GeneralControls
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.configtool.connectionControl import ConnectionControlGroupBox
+from simplefocstudio.gui.configtool.deviceJoggingControl import DeviceJoggingControl
+from simplefocstudio.gui.configtool.deviceTreeview import DeviceTreeView
+from simplefocstudio.gui.configtool.droDisplayWidget import DROGroupBox
+from simplefocstudio.gui.configtool.generalControls import GeneralControls
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class DevicesInspectorTree(QFrame):

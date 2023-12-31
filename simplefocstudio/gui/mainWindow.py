@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 from PyQt5 import (QtCore, QtWidgets)
 
-from src.gui.toolbar import SimpleFOCConfigToolBar
-from src.gui.workAreaTabbedWidget import WorkAreaTabbedWidget
+from simplefocstudio.gui.toolbar import SimpleFOCConfigToolBar
+from simplefocstudio.gui.workAreaTabbedWidget import WorkAreaTabbedWidget
 
 
 class UserInteractionMainWindow(object):

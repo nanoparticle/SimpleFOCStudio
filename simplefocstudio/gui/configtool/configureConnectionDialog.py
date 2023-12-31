@@ -3,8 +3,8 @@
 import serial
 from PyQt5 import (QtCore, QtGui, QtWidgets)
 
-from src.gui.sharedcomnponets.sharedcomponets import SerialPortComboBox
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import SerialPortComboBox
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class ConfigureSerailConnectionDialog(QtWidgets.QDialog):

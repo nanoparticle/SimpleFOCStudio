@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 import json
 from PyQt5 import QtWidgets
-from src.gui.commandlinetool.commandlinetool import CommandLineConsoleTool
-from src.gui.configtool.deviceConfigurationTool import DeviceConfigurationTool
-from src.gui.configtool.generatedCodeDisplay import GeneratedCodeDisplay
-from src.gui.configtool.treeViewConfigTool import TreeViewConfigTool
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.commandlinetool.commandlinetool import CommandLineConsoleTool
+from simplefocstudio.gui.configtool.deviceConfigurationTool import DeviceConfigurationTool
+from simplefocstudio.gui.configtool.generatedCodeDisplay import GeneratedCodeDisplay
+from simplefocstudio.gui.configtool.treeViewConfigTool import TreeViewConfigTool
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class WorkAreaTabbedWidget(QtWidgets.QTabWidget):

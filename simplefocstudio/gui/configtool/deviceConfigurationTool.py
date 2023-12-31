@@ -2,19 +2,19 @@
 # -*- coding: utf-8 -*-
 from PyQt5 import QtWidgets
 
-from src.gui.configtool.connectionControl import ConnectionControlGroupBox
-from src.gui.configtool.controlLoopConfig import ControlLoopGroupBox
-from src.gui.configtool.deviceJoggingControl import DeviceJoggingControl
-from src.gui.configtool.droDisplayWidget import DROGroupBox
-from src.gui.configtool.generalControls import GeneralControls
-from src.gui.configtool.generalSettingsWidget import GeneralSettingsGroupBox
-from src.gui.configtool.graphicWidget import SimpleFOCGraphicWidget
-from src.gui.configtool.pidConfiguration import PidGroupBox
-from src.gui.configtool.torqueConfig import TorqueGroupBox
-from src.gui.sharedcomnponets.commandLineInterface import CommandLineWidget
-from src.gui.sharedcomnponets.sharedcomponets import (WorkAreaTabWidget,
+from simplefocstudio.gui.configtool.connectionControl import ConnectionControlGroupBox
+from simplefocstudio.gui.configtool.controlLoopConfig import ControlLoopGroupBox
+from simplefocstudio.gui.configtool.deviceJoggingControl import DeviceJoggingControl
+from simplefocstudio.gui.configtool.droDisplayWidget import DROGroupBox
+from simplefocstudio.gui.configtool.generalControls import GeneralControls
+from simplefocstudio.gui.configtool.generalSettingsWidget import GeneralSettingsGroupBox
+from simplefocstudio.gui.configtool.graphicWidget import SimpleFOCGraphicWidget
+from simplefocstudio.gui.configtool.pidConfiguration import PidGroupBox
+from simplefocstudio.gui.configtool.torqueConfig import TorqueGroupBox
+from simplefocstudio.gui.sharedcomnponets.commandLineInterface import CommandLineWidget
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import (WorkAreaTabWidget,
                                                       GUIToolKit)
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class DeviceConfigurationTool(WorkAreaTabWidget):

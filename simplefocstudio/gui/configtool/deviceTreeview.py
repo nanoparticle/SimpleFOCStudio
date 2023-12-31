@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 from PyQt5 import (QtWidgets,QtCore)
 from PyQt5.Qt import QTreeWidget
-from src.gui.sharedcomnponets.sharedcomponets import GUIToolKit
-from src.simpleFOCConnector import SimpleFOCDevice
-from src.simpleFOCConnector import Command
+from simplefocstudio.gui.sharedcomnponets.sharedcomponets import GUIToolKit
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.simpleFOCConnector import Command
 
 class DeviceTreeView(QTreeWidget):
     def __init__(self, parent=None):

@@ -3,9 +3,9 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QVBoxLayout, QFrame, QSplitter)
 
-from src.gui.configtool.graphicWidget import SimpleFOCGraphicWidget
-from src.gui.sharedcomnponets.commandLineInterface import CommandLineWidget
-from src.simpleFOCConnector import SimpleFOCDevice
+from simplefocstudio.gui.configtool.graphicWidget import SimpleFOCGraphicWidget
+from simplefocstudio.gui.sharedcomnponets.commandLineInterface import CommandLineWidget
+from simplefocstudio.simpleFOCConnector import SimpleFOCDevice
 
 
 class DeviceInteractionFrame(QFrame):
